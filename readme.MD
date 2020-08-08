@@ -7,13 +7,11 @@ http://wiki.webnori.com/display/kubernetes/Kubernetes+For+Onpremise
 
 # 쿠버 네틱을 사용해보자
 
-http://wiki.webnori.com/category/dev 에서 제공하는, 모두를 위한 Open 쿠버네틱스입니다.
+https://github.com/webnori 멤버가 되시면 쿠버네틱을 연습할수 있습니다. (가입조건없음)
 
-해킹당해 서버가 멈추는 그날까지, 랜쳐를 이용한 쿠버네틱 데모및 연습을 하실수 있습니다.
 
     https://hub.webnori.com
-
-    id : admin / hubdev
+    
 
 # 자신의 클러스터를 추가해보자
 
