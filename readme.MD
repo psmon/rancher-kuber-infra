@@ -38,4 +38,6 @@ SSO로 연동되어 Github계정으로 웹노리 제공 쿠버네틱을
 네트워크편/도커기본명령/랜쳐설치등을 참고합니다. 자세한 설명은 없습니다.
 
 
+# 웹노리 쿠버네틱 데시보드
 
+<img src="img/rancher-main.png" width="50%" height="50%" title="" alt=""></img>
