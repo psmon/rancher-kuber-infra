@@ -1,6 +1,6 @@
 # 랜쳐를 이용한 쿠버네틱 소개
 
-![](img/device1.jpeg){:height="50%" width="50%"}
+<img src="img/device1.jpeg" width="50%" height="50%" title="" alt="미니멀 인프라"></img>
 
 초소형 미니 PC 3대를 연결하여, 온프레미스 환경에서 쿠버네티스를 셋팅해보자
 
