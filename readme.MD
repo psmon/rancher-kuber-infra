@@ -1,16 +1,23 @@
 # 랜쳐를 이용한 쿠버네틱 소개
 
-https://www.slexn.com/rancher/
+초소형 미니 PC 3대를 연결하여, 온프레미스 환경에서 쿠버네티스를 셋팅해보자
 
-http://wiki.webnori.com/display/kubernetes/Kubernetes+For+Onpremise
+클라우드를 사용하는 빠른시대에 이 구성을 선택한 이유는 단순하게 느린 취미활동과 
+
+쿠버네티스를 학습을 위한 기본기를 연마를 하기 위해서 입니다. 
+
+DocList : 
+- https://www.slexn.com/rancher/
+- http://wiki.webnori.com/display/kubernetes/Kubernetes+For+Onpremise
 
 
 # 쿠버 네틱을 사용해보자
 
-https://github.com/webnori 멤버가 되시면 쿠버네틱을 연습할수 있습니다. (가입조건없음)
+https://github.com/webnori 멤버가 되면
+SSO로 연동되어 Github계정으로 웹노리 제공 쿠버네틱을 
+연습할수 있습니다. (가입조건없음)
 
-
-    https://hub.webnori.com
+- https://hub.webnori.com
     
 
 # 자신의 클러스터를 추가해보자
