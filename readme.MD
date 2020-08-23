@@ -40,4 +40,4 @@ SSO로 연동되어 Github계정으로 웹노리 제공 쿠버네틱을
 
 # 웹노리 쿠버네틱 데시보드
 
-<img src="img/rancher-main.png" width="50%" height="50%" title="" alt=""></img>
+<img src="img/rancher-main.png" width="100%" height="100%" title="" alt=""></img>
