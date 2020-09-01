@@ -2,6 +2,8 @@ var os = require('os');
 
 var http = require('http');
 
+console.log("Start Server 8080");
+
 var handleRequest = function(request, response) {
 
   response.writeHead(200);

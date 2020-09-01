@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+    name: hello-node-rc
+    namespace: default
+spec:
+    replicas: 2
+    selector:
+      app: hello-node
+    template:
+      metadata:
+        name: hello-node-pod
+        labels:
+          app: hello-node
+    spec:
+    containers:
+    - name: hello-node
+      image: docker.webnori.com/node-web-app
+      imagePullPolicy: Always
+    ports:
+    - containerPort: 8080        
+          

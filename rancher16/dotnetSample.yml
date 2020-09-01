@@ -1,0 +1,18 @@
+version: '2'
+services:
+  dot-app:
+    image: docker.webnori.com/akka-dot-bootapi:latest
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ROLE=SearchApi
+    ports:
+      - 5000:5000    
+    labels:
+      io.rancher.scheduler.affinity:host_label: server=app
+      io.rancher.container.hostname_override: container_name
+
+
+version: '2'
+services:
+  dot-app:
+    scale: 2      

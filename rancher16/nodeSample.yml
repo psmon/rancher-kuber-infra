@@ -1,0 +1,13 @@
+version: '2'
+services:
+  node-app:
+    image: docker.webnori.com/node-web-app
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Alpha
+      - ROLE=SearchApi
+    ports:
+      - 8080:8080    
+    labels:
+      io.rancher.scheduler.affinity:host_label: server=app
+      io.rancher.container.hostname_override: container_name
+      
