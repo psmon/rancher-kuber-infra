@@ -10,6 +10,15 @@
 
 또한 홈 인프라의 미니멀화와 심미성을 추구하고 있습니다.
 
+# 인프라 목표
+
+- 언젠가 로컬에서 개발환경을 모두 구축하는것을 포기하게 되었습니다. 도커가 있음에도 불구하구요,개발환경은 Local First가 되어야합니다.
+- Nginx/Haproxy L7컨셉을 모르고, ELB만 사용할줄아는것은 분명 인프라 능력에 한계가 올것이며 AWS FIRST 를 지양합니다.
+- 여기서 시도된 컨셉은 AWS,쿠버네티스등 클라우드 환경으로 전환으로 시도되며 그와 관련된 CLI명령도 정리를 합니다.
+- 인프라 셋팅및 CI/CD등, 코드가 인프라 자체를 설명하는 Code as InfraStruct 를 추구합니다.
+- 
+
+
 DocList : 
 - https://www.slexn.com/rancher/
 - http://wiki.webnori.com/display/kubernetes/Kubernetes+For+Onpremise
