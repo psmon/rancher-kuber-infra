@@ -12,13 +12,14 @@
 
 # 인프라 목표
 
-<img src="img/rancher-arc.jpeg" width="50%" height="50%" title="" alt="미니멀 인프라"></img>
+<img src="img/rancher-arc.png" width="50%" height="50%" title="" alt="미니멀 인프라"></img>
 
 - 언젠가 로컬에서 개발환경을 모두 구축하는것을 포기하게 되었습니다. 도커가 있음에도 불구하구요,개발환경은 Local First가 되어야합니다.
 - 여기서 시도된 컨셉은 AWS,쿠버네티스등 클라우드 환경으로 전환으로 시도되며 그와 관련된 CLI명령도 정리를 합니다.
 - 인프라 셋팅및 CI/CD등, 코드가 인프라 자체를 설명하는 Code as InfraStruct 를 추구합니다.
 - OpenStack(Elk,KAFKA,LogStash,Spark등)은 점점 더 강력해지고 활용성이 높아지고 있으며, 클라우드를 이용하더라도 기본기가 요구됩니다. 도커의 발달과 함께 이제 복합인프라 구축은 
 - 주요 인프라요소인 LB 로드밸런스(Nginx/Haproxy)컨셉을 모르체, ELB만 사용할줄 아는것은 분명 인프라 구축에 한계가 올것이며 최종은 클라우드를 지향하지만,AWS FIRST 를 지양합니다.
+- 랜쳐는 단지 다양한 인프라를 조합하여 오케스트라하는 툴이며,쿠버네티스를 포함시킬수도 있습니다.
 
 DocList : 
 - https://www.slexn.com/rancher/
